@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manual de Usuario | Mantenimiento de Computadores</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,500,0,0" />
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="pagina">
+    <aside class="menu-lateral">
+      <div class="menu-cabecera">
+        <div class="menu-logo">
+          <span class="material-symbols-outlined">settings</span>
+        </div>
+        <div class="menu-titulos">
+          <h2>Manual de Usuario</h2>
+          <span class="menu-subtitulo">Mantenimiento de PC</span>
+        </div>
+      </div>
+
+      <nav class="menu-enlaces">
+        <a href="#introduccion" class="enlace-menu activo">
+          <span class="enlace-numero">1.</span>
+          <span>Introducción</span>
+        </a>
+        <a href="#preventivo" class="enlace-menu">
+          <span class="enlace-numero">2.</span>
+          <span>Mantenimiento preventivo</span>
+        </a>
+        <a href="#correctivo" class="enlace-menu">
+          <span class="enlace-numero">3.</span>
+          <span>Mantenimiento correctivo</span>
+        </a>
+        <a href="#herramientas" class="enlace-menu">
+          <span class="enlace-numero">4.</span>
+          <span>Herramientas y seguridad</span>
+        </a>
+      </nav>
+    </aside>
+
+    <main class="contenido-principal">
+      <div class="contenedor">
+        <div class="portada">
+          <div class="portada-etiquetas">
+            <span class="etiqueta etiqueta-azul">Soporte técnico</span>
+            <span class="etiqueta etiqueta-gris">Hardware y software</span>
+            <span class="etiqueta etiqueta-verde">Escritorio y laptop</span>
+          </div>
+          <h1>Manual de Usuario: Mantenimiento de Computadores</h1>
+          <p class="portada-texto">En este manual se explica paso a paso cómo revisar, limpiar y reparar una computadora, ya sea de escritorio o laptop. También se indican las herramientas que hacen falta y las precauciones que hay que tomar antes de abrir cualquier equipo.</p>
+        </div>
+
+        <section id="introduccion" class="seccion">
+          <div class="seccion-cabecera">
+            <span class="seccion-numero">Sección 1</span>
+            <h2>Introducción al Mantenimiento</h2>
+          </div>
+          <p class="seccion-texto">Una computadora que se cuida dura mucho más y falla menos. Aquí se reúnen los procedimientos básicos de limpieza, revisión y reparación para equipos de escritorio y portátiles, que son los que más se ven en el día a día.</p>
+
+          <div class="cuadricula columnas-4">
+            <div class="tarjeta">
+              <div class="tarjeta-superior">
+                <span class="tarjeta-icono icono-azul">
+                  <span class="material-symbols-outlined">cleaning_services</span>
+                </span>
+                <span class="tarjeta-etiqueta">Tipo 1</span>
+              </div>
+              <h3>Mantenimiento físico</h3>
+              <p>Es todo lo que se hace con las manos dentro del equipo: quitar el polvo, limpiar las ranuras de la RAM y de la tarjeta gráfica, lubricar ventiladores y cambiar la pasta térmica.</p>
+            </div>
+
+            <div class="tarjeta">
+              <div class="tarjeta-superior">
+                <span class="tarjeta-icono icono-indigo">
+                  <span class="material-symbols-outlined">terminal</span>
+                </span>
+                <span class="tarjeta-etiqueta">Tipo 2</span>
+              </div>
+              <h3>Mantenimiento lógico</h3>
+              <p>Tiene que ver con el software: limpiar archivos basura, quitar programas que arrancan solos, revisar que el sistema no tenga archivos dañados (con SFC y DISM), usar TRIM o desfragmentar según el disco, y actualizar el firmware.</p>
+            </div>
+
+            <div class="tarjeta">
+              <div class="tarjeta-superior">
+                <span class="tarjeta-icono icono-ambar">
+                  <span class="material-symbols-outlined">shield</span>
+                </span>
+                <span class="tarjeta-etiqueta">Tipo 3</span>
+              </div>
+              <h3>Mantenimiento preventivo</h3>
+              <p>Son las revisiones y limpiezas que se hacen cada cierto tiempo, antes de que algo falle. Incluye vigilar las temperaturas, revisar los ventiladores y sacar respaldos de la información.</p>
+            </div>
+
+            <div class="tarjeta">
+              <div class="tarjeta-superior">
+                <span class="tarjeta-icono icono-rojo">
+                  <span class="material-symbols-outlined">build</span>
+                </span>
+                <span class="tarjeta-etiqueta">Tipo 4</span>
+              </div>
+              <h3>Mantenimiento correctivo</h3>
+              <p>Se hace cuando algo ya falló. Hay que buscar qué pieza está dañada (fuente de poder, memoria RAM, pantalla, teclado, ventilador) y cambiarla.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="preventivo" class="seccion">
+          <div class="seccion-cabecera">
+            <span class="seccion-numero">Sección 2</span>
+            <h2>Mantenimiento Preventivo</h2>
+          </div>
+          <p class="seccion-texto">Son tareas que se repiten cada cierto tiempo para evitar averías. Como una computadora de escritorio no se abre igual que una laptop, los pasos se explican por separado, y al final se incluyen algunas rutinas que sirven para las dos.</p>
+
+          <div class="subseccion">
+            <span class="subseccion-icono">
+              <span class="material-symbols-outlined">desktop_windows</span>
+            </span>
+            <h3>A. Computadora de escritorio</h3>
+          </div>
+          <p class="subseccion-texto">Por dentro es más amplia y ventilada, y cada componente se saca por separado, así que es más fácil trabajar en ella. El servicio toma entre 45 y 60 minutos y conviene hacerlo cada 6 meses.</p>
+
+          <div class="cuadricula columnas-3">
+            <div class="tarjeta">
+              <div class="tarjeta-superior">
+                <span class="tarjeta-icono icono-azul">
+                  <span class="material-symbols-outlined">air</span>
+                </span>
+                <span class="tarjeta-etiqueta">Escritorio 1</span>
+              </div>
+              <h3>Filtros y flujo de aire</h3>
+              <p>Limpiar las mallas antipolvo del frente, la parte de arriba y la de abajo. Comprobar que los ventiladores de adelante metan aire fresco y que los de atrás y los de arriba saquen el aire caliente.</p>
+            </div>
+
+            <div class="tarjeta">
+              <div class="tarjeta-superior">
+                <span class="tarjeta-icono icono-ambar">
+                  <span class="material-symbols-outlined">bolt</span>
+                </span>
+                <span class="tarjeta-etiqueta">Escritorio 2</span>
+              </div>
+              <h3>Fuente de poder</h3>
+              <p>Soplar la rejilla de la fuente, pero antes frenar el ventilador con algo de plástico para que no gire de más con el aire. Si gira muy rápido, se puede dañar el eje.</p>
+            </div>
+
+            <div class="tarjeta">
+              <div class="tarjeta-superior">
+                <span class="tarjeta-icono icono-verde">
+                  <span class="material-symbols-outlined">memory</span>
+                </span>
+                <span class="tarjeta-etiqueta">Escritorio 3</span>
+              </div>
+              <h3>Tarjeta gráfica y RAM</h3>
+              <p>Soltar primero el seguro de la ranura PCIe antes de sacar la tarjeta gráfica. Pasar un borrador blanco suave por los contactos dorados de la RAM y de la tarjeta, y soplar las ranuras de la placa madre.</p>
+            </div>
+
+            <div class="tarjeta">
+              <div class="tarjeta-superior">
+                <span class="tarjeta-icono icono-indigo">
+                  <span class="material-symbols-outlined">ac_unit</span>
+                </span>
+                <span class="tarjeta-etiqueta">Escritorio 4</span>
+              </div>
+              <h3>Disipador de torre o refrigeración líquida</h3>
+              <p>Para quitar el bloque del procesador, aflojar los tornillos en cruz, así no se doblan los pines. Si el equipo es de refrigeración líquida, limpiar las aletas del radiador y fijarse si las mangueras tienen fugas.</p>
+            </div>
+
+            <div class="tarjeta">
+              <div class="tarjeta-superior">
+                <span class="tarjeta-icono icono-gris">
+                  <span class="material-symbols-outlined">cable</span>
+                </span>
+                <span class="tarjeta-etiqueta">Escritorio 5</span>
+              </div>
+              <h3>Cables y conexiones SATA</h3>
+              <p>Acomodar los cables por la parte de atrás de la bandeja para que no tapen el paso del aire. Revisar que el conector de 24 pines, el de CPU y los cables SATA estén bien metidos.</p>
+            </div>
+
+            <div class="tarjeta">
+              <div class="tarjeta-superior">
+                <span class="tarjeta-icono icono-rojo">
+                  <span class="material-symbols-outlined">battery_charging_full</span>
+                </span>
+                <span class="tarjeta-etiqueta">Escritorio 6</span>
+              </div>
+              <h3>Pila CR2032 y panel frontal</h3>
+              <p>Medir la pila CR2032 con el multímetro; debería marcar 3.0 V o más. También revisar que los pines del panel frontal (botón de encendido, reset y luces) y los puertos USB de adelante estén firmes.</p>
+            </div>
+
+            <div class="tarjeta">
+              <div class="tarjeta-superior">
+                <span class="tarjeta-icono icono-azul">
+                  <span class="material-symbols-outlined">hard_drive</span>
+                </span>
+                <span class="tarjeta-etiqueta">Escritorio 7</span>
+              </div>
+              <h3>Discos duros y SSD</h3>
+              <p>Ver que los discos de 3.5" y las unidades M.2 NVMe estén bien sujetos. Limpiar los conectores SATA de datos y de energía, y cuidar que el aire llegue a los discos mecánicos.</p>
+            </div>
+
+            <div class="tarjeta">
+              <div class="tarjeta-superior">
+                <span class="tarjeta-icono icono-ambar">
+                  <span class="material-symbols-outlined">usb</span>
+                </span>
+                <span class="tarjeta-etiqueta">Escritorio 8</span>
+              </div>
+              <h3>Puertos traseros y lámina I/O</h3>
+              <p>Mirar la lámina metálica de la parte trasera (I/O Shield) para confirmar que ninguna pestaña toque los puertos USB o de audio y cause un cortocircuito. Soplar los puertos para sacarles el polvo.</p>
+            </div>
+
+            <div class="tarjeta">
+              <div class="tarjeta-superior">
+                <span class="tarjeta-icono icono-verde">
+                  <span class="material-symbols-outlined">electrical_services</span>
+                </span>
+                <span class="tarjeta-etiqueta">Escritorio 9</span>
+              </div>
+              <h3>Conexión a tierra</h3>
+              <p>Comprobar que el tomacorriente y la fuente de poder tengan tierra de verdad. Eso descarga la estática y protege los componentes más delicados.</p>
+            </div>
+          </div>
+
+          <div class="subseccion separada">
+            <span class="subseccion-icono">
+              <span class="material-symbols-outlined">laptop_mac</span>
+            </span>
+            <h3>B. Computadora portátil (laptop)</h3>
+          </div>
+          <p class="subseccion-texto">Todo va muy junto y hay poco espacio, así que hay que ir con más cuidado. El servicio toma entre 60 y 90 minutos y se recomienda hacerlo cada 4 a 6 meses. Conviene usar una pasta térmica más espesa.</p>
+
+          <div class="cuadricula columnas-3">
+            <div class="tarjeta">
+              <div class="tarjeta-superior">
+                <span class="tarjeta-icono icono-rojo">
+                  <span class="material-symbols-outlined">battery_alert</span>
+                </span>
+                <span class="tarjeta-etiqueta">Laptop 1</span>
+              </div>
+              <h3>Desconectar la batería interna</h3>
+              <p><strong>Esto va antes de tocar cualquier otra cosa.</strong> Quitar la tapa de abajo y desconectar enseguida el cable flex de la batería, para evitar un cortocircuito en la placa.</p>
+            </div>
+
+            <div class="tarjeta">
+              <div class="tarjeta-superior">
+                <span class="tarjeta-icono icono-ambar">
+                  <span class="material-symbols-outlined">thermostat</span>
+                </span>
+                <span class="tarjeta-etiqueta">Laptop 2</span>
+              </div>
+              <h3>Disipador</h3>
+              <p>Aflojar los tornillos del disipador en orden inverso al número que traen marcado. Limpiar los ductos de cobre, que casi siempre se tapan con pelusa compactada, y revisar los thermal pads de la zona de los VRM.</p>
+            </div>
+
+            <div class="tarjeta">
+              <div class="tarjeta-superior">
+                <span class="tarjeta-icono icono-azul">
+                  <span class="material-symbols-outlined">hardware</span>
+                </span>
+                <span class="tarjeta-etiqueta">Laptop 3</span>
+              </div>
+              <h3>Tornillos y bisagras</h3>
+              <p>Ir separando los tornillos según el lugar de donde salieron, porque uno largo en el hueco equivocado puede perforar el reposamuñecas. Revisar también las bisagras y ajustarlas si están flojas.</p>
+            </div>
+
+            <div class="tarjeta">
+              <div class="tarjeta-superior">
+                <span class="tarjeta-icono icono-indigo">
+                  <span class="material-symbols-outlined">settings_input_component</span>
+                </span>
+                <span class="tarjeta-etiqueta">Laptop 4</span>
+              </div>
+              <h3>Conectores ZIF y cables flex</h3>
+              <p>Levantar con suavidad la pestaña del conector ZIF antes de sacar el flex del teclado, del touchpad o de la pantalla. Los cables de antena de la tarjeta Wi-Fi se sueltan con una pinza plástica.</p>
+            </div>
+
+            <div class="tarjeta">
+              <div class="tarjeta-superior">
+                <span class="tarjeta-icono icono-verde">
+                  <span class="material-symbols-outlined">keyboard</span>
+                </span>
+                <span class="tarjeta-etiqueta">Laptop 5</span>
+              </div>
+              <h3>Teclado, touchpad y pantalla</h3>
+              <p>Pasar una brocha antiestática y soplar con poca presión entre las teclas. La pantalla se limpia solo con un paño de microfibra apenas húmedo, con un líquido que no tenga alcohol ni amoníaco.</p>
+            </div>
+
+            <div class="tarjeta">
+              <div class="tarjeta-superior">
+                <span class="tarjeta-icono icono-gris">
+                  <span class="material-symbols-outlined">battery_std</span>
+                </span>
+                <span class="tarjeta-etiqueta">Laptop 6</span>
+              </div>
+              <h3>Estado de la batería</h3>
+              <p>Mirar que la batería de litio no esté hinchada. Es mejor no dejarla descargar hasta 0% de forma seguida. Para calibrarla, se puede usar el reporte de energía que trae el sistema.</p>
+            </div>
+
+            <div class="tarjeta">
+              <div class="tarjeta-superior">
+                <span class="tarjeta-icono icono-azul">
+                  <span class="material-symbols-outlined">wifi</span>
+                </span>
+                <span class="tarjeta-etiqueta">Laptop 7</span>
+              </div>
+              <h3>Tarjeta Wi-Fi y antenas</h3>
+              <p>Verificar que la tarjeta M.2 esté bien asegurada y que los dos cables de antena estén bien presionados en sus conectores, sin pines doblados.</p>
+            </div>
+
+            <div class="tarjeta">
+              <div class="tarjeta-superior">
+                <span class="tarjeta-icono icono-ambar">
+                  <span class="material-symbols-outlined">power</span>
+                </span>
+                <span class="tarjeta-etiqueta">Laptop 8</span>
+              </div>
+              <h3>Puerto de carga</h3>
+              <p>Revisar que el puerto DC-IN o USB-C de carga esté firme y que la soldadura no se vea floja. Es una de las piezas que más sufre, porque el cargador se jala o se desconecta de golpe.</p>
+            </div>
+
+            <div class="tarjeta">
+              <div class="tarjeta-superior">
+                <span class="tarjeta-icono icono-verde">
+                  <span class="material-symbols-outlined">mode_fan</span>
+                </span>
+                <span class="tarjeta-etiqueta">Laptop 9</span>
+              </div>
+              <h3>Turbina del ventilador</h3>
+              <p>Desmontar la turbina y sacar el polvo apelmazado de las aspas y de la salida del disipador. Si ahí se acumula, el aire caliente casi no sale.</p>
+            </div>
+          </div>
+
+          <div class="subseccion separada">
+            <span class="subseccion-icono">
+              <span class="material-symbols-outlined">checklist</span>
+            </span>
+            <h3>C. Rutinas generales</h3>
+          </div>
+          <p class="subseccion-texto">Estas tareas se hacen igual en cualquier tipo de equipo.</p>
+
+          <div class="cuadricula columnas-3">
+            <div class="tarjeta">
+              <div class="tarjeta-superior">
+                <span class="tarjeta-icono icono-azul">
+                  <span class="material-symbols-outlined">air</span>
+                </span>
+                <span class="tarjeta-etiqueta">Rutina 1</span>
+              </div>
+              <h3>Limpieza con aire comprimido</h3>
+              <p>Dar ráfagas cortas con el envase siempre derecho. Si se inclina, puede salir líquido helado del propelente y mojar los circuitos.</p>
+            </div>
+
+            <div class="tarjeta">
+              <div class="tarjeta-superior">
+                <span class="tarjeta-icono icono-ambar">
+                  <span class="material-symbols-outlined">science</span>
+                </span>
+                <span class="tarjeta-etiqueta">Rutina 2</span>
+              </div>
+              <h3>Cambio de pasta térmica</h3>
+              <p>Limpiar con alcohol isopropílico al 99% la superficie del procesador y la base del disipador, y poner pasta nueva. Con una gota del tamaño de un grano de arroz alcanza.</p>
+            </div>
+
+            <div class="tarjeta">
+              <div class="tarjeta-superior">
+                <span class="tarjeta-icono icono-indigo">
+                  <span class="material-symbols-outlined">storage</span>
+                </span>
+                <span class="tarjeta-etiqueta">Rutina 3</span>
+              </div>
+              <h3>Estado del almacenamiento</h3>
+              <p>Revisar con S.M.A.R.T. los sectores reasignados y las horas de uso del disco. En los SSD se ejecuta TRIM, y la desfragmentación se deja solo para los discos HDD.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="correctivo" class="seccion">
+          <div class="seccion-cabecera">
+            <span class="seccion-numero">Sección 3</span>
+            <h2>Mantenimiento Correctivo y Fallas Comunes</h2>
+          </div>
+          <p class="seccion-texto">Cuando un equipo falla, lo mejor es descartar causas una por una, empezando por las más simples. Este procedimiento sirve para computadoras de escritorio y laptops. A continuación se describen los cuatro síntomas más frecuentes.</p>
+
+          <div class="cuadricula columnas-2">
+            <div class="tarjeta-sintoma">
+              <div class="sintoma-titulo">
+                <span class="sintoma-etiqueta sintoma-grave">Síntoma 1</span>
+                <h3>Enciende pero no da imagen (no pasa el POST)</h3>
+              </div>
+              <p><strong>Causa probable:</strong> la RAM mal asentada, la tarjeta gráfica floja o un problema con la alimentación extra del procesador.</p>
+              <p><strong>Qué hacer:</strong> probar con un solo módulo de RAM y cambiarlo de ranura, limpiar los contactos dorados, escuchar los pitidos de la placa o mirar sus luces de diagnóstico, y reiniciar la CMOS.</p>
+            </div>
+
+            <div class="tarjeta-sintoma">
+              <div class="sintoma-titulo">
+                <span class="sintoma-etiqueta sintoma-medio">Síntoma 2</span>
+                <h3>Se apaga de repente cuando trabaja fuerte</h3>
+              </div>
+              <p><strong>Causa probable:</strong> el procesador o la tarjeta gráfica llegan a más de 95 °C y se activa la protección térmica, o la fuente de poder no está entregando bien el voltaje.</p>
+              <p><strong>Qué hacer:</strong> mirar las temperaturas mientras el equipo trabaja, confirmar que el disipador esté bien asentado, destapar las rejillas y cambiar la pasta térmica si está reseca.</p>
+            </div>
+
+            <div class="tarjeta-sintoma">
+              <div class="sintoma-titulo">
+                <span class="sintoma-etiqueta sintoma-leve">Síntoma 3</span>
+                <h3>Pantallazos azules (BSOD) que se repiten</h3>
+              </div>
+              <p><strong>Causa probable:</strong> sectores dañados en el disco, errores en la memoria RAM o un driver corrupto.</p>
+              <p><strong>Qué hacer:</strong> anotar el código de error que muestra la pantalla, correr el Diagnóstico de Memoria de Windows o MemTest86, volver a la versión anterior de los drivers que se instalaron hace poco y reparar los archivos de arranque.</p>
+            </div>
+
+            <div class="tarjeta-sintoma">
+              <div class="sintoma-titulo">
+                <span class="sintoma-etiqueta sintoma-grave">Síntoma 4</span>
+                <h3>No enciende y no muestra ninguna luz</h3>
+              </div>
+              <p><strong>Causa probable:</strong> fuente de poder quemada, cargador dañado (en laptops) o un cortocircuito en la placa madre.</p>
+              <p><strong>Qué hacer:</strong> medir con el multímetro el voltaje que da la fuente o el cargador, desconectar todo lo externo y descargar la energía que queda en el equipo (mantener presionado el botón de encendido unos segundos).</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="herramientas" class="seccion">
+          <div class="seccion-cabecera">
+            <span class="seccion-numero">Sección 4</span>
+            <h2>Herramientas, Materiales y Seguridad</h2>
+          </div>
+          <p class="seccion-texto">Antes de abrir un equipo hay que tener a mano las herramientas correctas y saber cómo protegerlo de la electricidad estática. Con eso se evita dañar piezas o romper plásticos sin querer.</p>
+
+          <div class="subseccion">
+            <span class="subseccion-icono">
+              <span class="material-symbols-outlined">handyman</span>
+            </span>
+            <h3>Herramientas: preventivo y correctivo</h3>
+          </div>
+          <p class="subseccion-texto">Cada tipo de mantenimiento pide cosas distintas. Esta es la lista de lo que se usa en cada uno.</p>
+
+          <div class="cuadricula columnas-2">
+            <div class="tarjeta tarjeta-azul">
+              <div class="tarjeta-superior">
+                <span class="tarjeta-icono icono-azul">
+                  <span class="material-symbols-outlined">verified_user</span>
+                </span>
+                <span class="tarjeta-etiqueta">Preventivo</span>
+              </div>
+              <h3>Para el mantenimiento preventivo</h3>
+              <ul class="lista-herramientas">
+                <li><strong>Aire comprimido seco:</strong> saca el polvo de disipadores, ventiladores y rejillas sin dejar humedad.</li>
+                <li><strong>Alcohol isopropílico al 99%:</strong> sirve para limpiar superficies, disipadores y la tapa metálica del procesador.</li>
+                <li><strong>Brochas antiestáticas:</strong> quitan el polvo pegado a los circuitos sin generar estática.</li>
+                <li><strong>Pasta térmica y thermal pads:</strong> para renovarlos de vez en cuando en el procesador, la tarjeta gráfica y los VRM.</li>
+                <li><strong>Paños de microfibra:</strong> para la parte exterior, la pantalla y los teclados.</li>
+              </ul>
+            </div>
+
+            <div class="tarjeta tarjeta-ambar">
+              <div class="tarjeta-superior">
+                <span class="tarjeta-icono icono-ambar">
+                  <span class="material-symbols-outlined">construction</span>
+                </span>
+                <span class="tarjeta-etiqueta">Correctivo</span>
+              </div>
+              <h3>Para el mantenimiento correctivo</h3>
+              <ul class="lista-herramientas">
+                <li><strong>Destornilladores de precisión (PH000 a PH1 y Torx):</strong> para abrir el equipo y cambiar fuentes, pantallas y otras piezas dañadas.</li>
+                <li><strong>Multímetro digital:</strong> para medir voltajes en fuentes ATX y cargadores, y comprobar continuidad.</li>
+                <li><strong>Espátulas y púas de plástico (spudgers):</strong> abren las carcasas de laptops y tablets sin partir las pestañas.</li>
+                <li><strong>Pinzas de punta fina:</strong> para microconectores, cables de antena y tornillos pequeños que se caen.</li>
+                <li><strong>Borrador blanco suave:</strong> limpia los contactos dorados de la RAM y de las tarjetas PCIe.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="subseccion separada">
+            <span class="subseccion-icono">
+              <span class="material-symbols-outlined">warning</span>
+            </span>
+            <h3>Seguridad eléctrica y descargas estáticas (ESD)</h3>
+          </div>
+          <p class="subseccion-texto">Estas precauciones son obligatorias, porque una descarga estática que uno ni siente puede dañar un componente.</p>
+
+          <div class="cuadricula columnas-2">
+            <div class="tarjeta-seguridad">
+              <div class="seguridad-numero">1</div>
+              <div>
+                <h3>Desconectar y descargar la energía</h3>
+                <p>Desconectar el cable de corriente (o la batería interna, si es una laptop) y mantener presionado el botón de encendido durante 10 segundos. Así se descarga la energía que queda guardada en los capacitores de la placa.</p>
+              </div>
+            </div>
+
+            <div class="tarjeta-seguridad">
+              <div class="seguridad-numero">2</div>
+              <div>
+                <h3>Pulsera antiestática</h3>
+                <p>La pulsera debe quedar pegada a la piel de la muñeca, y la pinza se engancha a una parte metálica del chasis que no tenga pintura. De esa forma el cuerpo y el equipo quedan al mismo potencial eléctrico.</p>
+              </div>
+            </div>
+
+            <div class="tarjeta-seguridad">
+              <div class="seguridad-numero">3</div>
+              <div>
+                <h3>Un buen lugar de trabajo</h3>
+                <p>Trabajar sobre una mesa libre, seca y con buena luz, de ser posible con una alfombrilla antiestática. Hay que evitar las alfombras, las camas y las telas, porque acumulan mucha estática.</p>
+              </div>
+            </div>
+
+            <div class="tarjeta-seguridad">
+              <div class="seguridad-numero">4</div>
+              <div>
+                <h3>Cómo agarrar los componentes</h3>
+                <p>Las placas, tarjetas gráficas, procesadores y módulos de RAM se agarran solo por los bordes. No hay que tocar los contactos dorados ni los chips.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer class="pie">
+          <div class="pie-texto">
+            <strong>Manual de Usuario: Mantenimiento de Computadores</strong>
+            <span>Autor: Iván Sebastian Martinez Guedez</span>
+          </div>
+        </footer>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
